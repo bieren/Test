@@ -15,9 +15,10 @@ return
 class  
 static  
 void   
-new   对象实例化
+new   //对象实例化
 int   
-
+if
+else
 ======================================================================
 类
 String
@@ -28,30 +29,30 @@ Scanner
 
 ======================================================================
 
-	@Override
-	public String toString() {
-		// TODO Auto-generated method stub
-		return "我是a.Llm01";
-	}
+@Override
+public String toString() {
+	// TODO Auto-generated method stub
+	return "我是a.Llm01";
+}
 ======================================================================
-
-	if("*".equals(m)){
-		System.out.println(a*b);
-	}
-
-======================================================================
-
-	if("*".equals(m)){
-		System.out.println(a*b);
-	}else if("%".equals(m)){
-		System.out.println(a%b);
-	}else{
-
-	}
+//条件判断语句
+if("*".equals(m)){
+	System.out.println(a*b);
+}
 
 ======================================================================
 
- 	System.out.println("吔屎啦你。");
+if("*".equals(m)){
+	System.out.println(a*b);
+}else if("%".equals(m)){
+	System.out.println(a%b);
+}else{
+
+}
+
+======================================================================
+
+System.out.println("吔屎啦你。");//打印语句
 
 
 
