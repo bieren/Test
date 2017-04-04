@@ -1,0 +1,5 @@
+项目名== → team == → Synchronize workspace 
+== → 在Synchronize窗口下
+ 左上角窗口内选择需要提交的文件右键 == → add to index
+ 右上角窗口内选择填写提交的消息  == → 
+ 右下角 根据需求点击    Commit and push（递交到本地并且上传到git服务器） 或 Commit（递交到本地git仓库）
