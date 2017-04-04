@@ -1,3 +1,5 @@
+
+简单git 提交流程
 项目名== → team == → Synchronize workspace 
 == → 在Synchronize窗口下
  左上角窗口内选择需要提交的文件右键 == → add to index

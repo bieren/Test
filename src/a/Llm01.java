@@ -12,6 +12,13 @@ public class Llm01 {
 	
 	
 	public static void main(String[] args){
+		
+		
+		//本类实例化 
+		
+		Llm01 A01 = new Llm01();
+		System.out.println(A01.toString());
+		
 		Scanner input = new Scanner(System.in);
 		int a = input.nextInt();
 		String m = input.next();
