@@ -9,6 +9,10 @@ public class B001 {
 	// 全局变量 在类范围中声明的变量
 	public String a1 = "我是全局变量,是字符串变量,public标志着我是公共的可跨包的，我所在的类是b.B001";
 
+	/**
+	 * B001属性  a2
+	 * 我是全局变量,是字符串变量,private标志着我是私有的不可跨包的仅供类内调用的，我所在的类是b.B001
+	 */
 	private String a2 = "我是全局变量,是字符串变量,private标志着我是私有的不可跨包的仅供类内调用的，我所在的类是b.B001";
 
 	private boolean c = true;

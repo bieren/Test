@@ -2,6 +2,10 @@ package a;
 
 import java.util.Scanner;
 
+/**
+ * 作者  琉珑玛
+ * @author Administrator
+ */
 public class Llm01 {
 	
 	@Override
@@ -11,13 +15,19 @@ public class Llm01 {
 	}
 	
 	
+	/**
+	 * main 方法
+	 * @param args
+	 */
 	public static void main(String[] args){
 		
 		
 		//本类实例化 
 		
-		Llm01 A01 = new Llm01();
-		System.out.println(A01.toString());
+		///Llm01 A01 = new Llm01();
+		/*
+		 * System.out.println(A01.toString());
+		 */
 		
 		Scanner input = new Scanner(System.in);
 		int a = input.nextInt();
