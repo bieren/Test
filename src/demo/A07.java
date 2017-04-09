@@ -1,5 +1,10 @@
 package demo;
 
+/**
+ * 任意数乘法表
+ * @author Administrator
+ *
+ */
 public class A07 {
 	public static void main(String[] args) {
 		int n = 100;
