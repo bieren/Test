@@ -1,0 +1,63 @@
+2017年4月16日 22:58:39
+================================================================
+对象的实例化 
+
+类名 对象名 = new 类名（）：（java语法中规定的某个类的默认构造函数）
+	public Human() {
+
+	}
+
+
+
+
+类名 对象名 = new 构造函数（参数1.参数2...）：（用来一次定义类的多个属性值）
+public Human(Integer id, String name, int age, double hight, int level, int power, int hp) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.age = age;
+		this.hight = hight;
+		this.level = level;
+		this.power = power;
+		this.hp = hp;
+	}
+
+================================================================
+
+
+
+类的属性的get和set方法（用来单独获取/设置类的某个属性值）
+get方法 ：用来获取某个属性值
+set方法 :用来设置每个数据的值
+
+================================================================
+类的toString（用来定义某个类的字符串内容）
+	@Override
+	public String toString() {
+		return "Human [id=" + id + ", name=" + name + ", age=" + age + ", hight=" + hight + ", level=" + level
+				+ ", power=" + power + ", hp=" + hp + "]";
+	}
+
+================================================================
+
+double 实数  带小数点的数
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
