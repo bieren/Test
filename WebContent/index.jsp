@@ -1,14 +1,30 @@
-<%@page import="java.sql.Date"%>
-<%@ page language="java" contentType="text/html; charset=utf-8"
-    pageEncoding="utf-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<%@ page contentType="text/html; charset=utf-8" language="java" import="java.sql.*" errorPage="" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Insert title here</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>丢累楼谋</title>
 </head>
+<%
+	Date date = new Date(System.currentTimeMillis()) ;
+	int a = 0;
+%>
+现在是北京时间<%=date %>111111
+<table width="100%" border="5">
+  <tr>
+    <td>&nbsp;<%=date %>-<%=a++ %></td>
+    <td>&nbsp;<%=date %>-<%=a++ %></td>
+  </tr>
+  <tr>
+    <td>&nbsp;<%=date %>-<%=a++ %></td>
+    <td>&nbsp;<%=date %>-<%=a++ %></td>
+  </tr>
+  <tr>
+    <td>&nbsp;<%=date %>-<%=a++ %></td>
+    <td>&nbsp;<%=date %>-<%=a++ %></td>
+  </tr>
+</table>
+
 <body>
-<h1>11111111111</h1>
-<%=new Date(System.currentTimeMillis()) %>
 </body>
 </html>
