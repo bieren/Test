@@ -21,7 +21,7 @@ public class A08 {
 		for (int i = 1; i <= n; i++) {
 			for (int j = 1; j <= n; j++) {
 				String a = i + "×" + j + "=" + i * j;
-				l+=a.length();
+				l+=a.length();//l=l+a.length()
 //				System.out.print(a);
 				if (i == j) {
 //					System.out.println();

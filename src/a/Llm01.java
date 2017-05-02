@@ -3,60 +3,76 @@ package a;
 import java.util.Scanner;
 
 /**
- * 作者  琉珑玛
+ * 作者 琉珑玛
+ * 
  * @author Administrator
  */
 public class Llm01 {
-	
+
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
 		return "我是a.Llm01";
 	}
-	
-	
+
 	/**
 	 * main 方法
+	 * 
 	 * @param args
 	 */
-	public static void main(String[] args){
-		
-		
-		//本类实例化 
-		
-		///Llm01 A01 = new Llm01();
-		/*
-		 * System.out.println(A01.toString());
-		 */
-		
+	public static void main(String[] args) {
+
+		// 本类实例化
+
+		Llm01 A01 = new Llm01();
+
+		System.out.println(A01);
+
+		System.out.println("****************************************");
+
+		System.out.println(A01.toString());
+
 		Scanner input = new Scanner(System.in);
 		int a = input.nextInt();
 		String m = input.next();
 		int b = input.nextInt();
-		//输出
+		// 输出
 		System.out.println(a);
 		System.out.println(m);
 		System.out.println(b);
-		
-		if("+".equals(m)){
-			System.out.println(a+b);
-		}else if("-".equals(m)){
-			System.out.println(a-b);
-		}else if("/".equals(m)){
-			System.out.println(a/b);
-		}else if("*".equals(m)){
-			System.out.println(a*b);
-		}else if("%".equals(m)){
-			System.out.println(a%b);
-		}else
-	        System.out.println("吔屎啦你。");
 
-	
-	
-	
-	
-	    input.close();
-	    
+		// if(m==m){
+		// System.out.println("a+b");
+		// }else {
+		// System.out.println("a-b");
+		// }
+
+		if ("+".equals(m)) {
+			System.out.println(a + b);
+		} else if ("-".equals(m)) {
+			System.out.println(a - b);
+		} else if ("/".equals(m)) {
+			System.out.println(a / b);
+		} else if ("*".equals(m)) {
+			System.out.println(a * b);
+		} else if ("%".equals(m)) {
+			System.out.println(a % b);
+		} else {
+
+			int i = 0;
+			while (i==i) {
+
+				System.out.println("吔屎啦你。"+i);
+				i++;
+				if (i == 100) {
+					return;
+				}
+				
+			}
+		}
+
+		input.close();
+
 	}
 
 }
