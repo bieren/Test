@@ -44,6 +44,11 @@ public class Human {
 	 */
 	private int hp;
 	
+	//public 公共的 所有 权限
+	//static 静态的 无须实例化 可调用
+	// final 不可修改的 
+	public static final String FIELDS="id,name,age,hight,level,power,hp";
+	
 	
 	public Human() {
 
