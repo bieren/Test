@@ -3,7 +3,7 @@ package a.a1;
 import java.util.Scanner;
 
 public class A012_zidongcaiquanjilu {
-	public static void main1(String[] args) {
+	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("=====来玩猜拳游戏吧=====");
 		System.out.println("1，是剪刀 2，是石头 3，是布");
@@ -113,8 +113,8 @@ public class A012_zidongcaiquanjilu {
 		double flat = b / count;
 		double transport = c / count;
 		System.out.println(name+"的胜率是:"+(double)((int)(win*1000))/10+"%");		
-		System.out.println(name+"的败率是:"+(double)((int)(flat*1000))/10+"%");
-		System.out.println(name+"的平手率是:"+(double)((int)(transport*1000))/10+"%");
+		System.out.println(name+"的平手率是:"+(double)((int)(flat*1000))/10+"%");
+		System.out.println(name+"的败率是:"+(double)((int)(transport*1000))/10+"%");
 
 		// TODO Auto-generated method stub
 
@@ -292,7 +292,7 @@ public class A012_zidongcaiquanjilu {
 		}
 	}
 
-	public static void main(String[] args) {
+	public static void main1(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("=====来玩猜拳游戏吧=====");
 		System.out.println("1，是剪刀 2，是石头 3，是布");
