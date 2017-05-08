@@ -14,6 +14,7 @@ public class A013_c {
 //			System.out.println(i+"+"+j+"="+(i+j));
 			
 //			System.out.println(l);
+			
 			if(i < 10 ){
 				System.out.print(" "+i);
 			}else {
