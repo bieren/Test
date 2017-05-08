@@ -13,8 +13,7 @@ public class A013_c {
 			int l=c.length();
 //			System.out.println(i+"+"+j+"="+(i+j));
 			
-//			System.out.println(l);
-			
+//			System.out.println(l);			
 			if(i < 10 ){
 				System.out.print(" "+i);
 			}else {
